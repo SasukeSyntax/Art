@@ -18,6 +18,8 @@ body {
   /* font-size: 5rem; */
   margin: 20px;
   width: 90%;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(126, 141, 154, 0.3);
 }
 
 #head-line {
@@ -39,4 +41,21 @@ img.art-pics {
   height: 80%;
   object-fit: cover;
   border-radius: 1rem;
+}
+
+#welcome-block {
+  width: 90%;
+  margin: 20px;
+  background-color: rgba(126, 141, 154, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(126, 141, 154, 0.3);
+}
+
+#welcoming-line {
+  font-family: "Major Mono Display", monospace;
+  font-size: 5rem;
+}
+
+#welcome {
+  font-style: italic;
 }
