@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('webground.jpg');
+    background-image: url('2nd-webground.jpg');
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,28 +15,28 @@ body {
 
 #headLine {
   font-family: "Major Mono Display", monospace;
-  font-size: 50px;
+  /* font-size: 5rem; */
   margin: 20px;
+  width: 90%;
+}
+
+#head-line {
+  font-size: 10rem;
 }
 
 #art-block-1 {
-  display: flex;
-  /* flex-wrap: wrap; */
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: 10px; */
   margin-left: 20px;
   margin-bottom: 20px;
-  /* max-width: 600px; */
-}
-
-@media (min-width: 600px) {
-  #art-block-1 {
-    flex-wrap: wrap;
-  }
+  width: 90%;
+  /* height: 1000px; */
 }
 
 img.art-pics {
-  width: 300px;
-  height: 300px;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   border-radius: 1rem;
 }
