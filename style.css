@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('2nd-webground.jpg');
+    background-image: url('Document.png');
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,6 +16,7 @@ body {
 #headLine {
   font-family: "Major Mono Display", monospace;
   /* font-size: 5rem; */
+  color: rgb(91, 109, 113);
   margin: 20px;
   width: 90%;
   backdrop-filter: blur(10px);
@@ -49,6 +50,7 @@ img.art-pics {
   background-color: rgba(126, 141, 154, 0.15);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(126, 141, 154, 0.3);
+  color: rgb(91, 109, 113);
 }
 
 #welcoming-line {
@@ -58,4 +60,14 @@ img.art-pics {
 
 #welcome {
   font-style: italic;
+}
+
+.para {
+  width: 90%;
+  margin: 20px;
+  padding: 10px;
+  color: rgb(91, 109, 113);
+  backdrop-filter: blur(20px);
+  border-radius: 0.5rem;
+  font-size: large;
 }
