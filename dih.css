@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
 
 #headLine {
   font-family: "Major Mono Display", monospace;
-  /* font-size: 5rem; */
+  /* font-size: 5rem; */ 
   color: rgb(91, 109, 113);
   margin: 20px;
   width: 90%;
